@@ -12,20 +12,14 @@ Config.npcs = {
             {
                 label = "Start The Job",
                 event = "jomidar-rr:sv:start",
-                type = "server", -- Komut veya Event
-                args = {'1'} -- Komut için argümanlar
+                type = "server",
+                args = {'1'} 
             },
             {
                 label = "Stop The Job",
                 event = "jomidar-rr:stop",
-                type = "client",-- Komut veya Event
-                args = {'2'} -- Komut için argümanlar
-            },
-            {
-                label = "Get Outfit",
-                event = "jomidar-rr:outfit",
-                type = "client",-- Komut veya Event
-                args = {'3'} -- Komut için argümanlar
+                type = "client",
+                args = {'2'} 
             }
         }
     }
